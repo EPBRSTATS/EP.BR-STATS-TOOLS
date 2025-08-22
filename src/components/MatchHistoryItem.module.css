@@ -1,0 +1,60 @@
+.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.championImage {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+}
+
+.gameResult {
+  font-weight: bold;
+}
+
+.gameMode {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.rightSection {
+  text-align: right;
+}
+
+.kda {
+  font-weight: bold;
+}
+
+.kdaLabel {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.win {
+  background-color: rgba(16, 185, 129, 0.1);
+  border-left: 4px solid #10b981;
+}
+
+.loss {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-left: 4px solid #ef4444;
+}
+
+.win .gameResult {
+  color: #10b981;
+}
+
+.loss .gameResult {
+  color: #ef4444;
+}

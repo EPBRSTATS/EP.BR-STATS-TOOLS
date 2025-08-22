@@ -1,0 +1,168 @@
+.container {
+  min-height: 100vh;
+  background-color: #111827;
+  color: white;
+}
+
+.main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 2rem;
+}
+
+.searchForm {
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem 0 0 0.25rem;
+  color: #111827;
+  width: 100%;
+  border: none;
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.button:disabled {
+  background-color: #4b5563;
+  cursor: not-allowed;
+}
+
+.formHint {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+.errorBox {
+  background-color: #991b1b;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.loadingText {
+  text-align: center;
+}
+
+.summonerCard {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.summonerHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.summonerIcon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+}
+
+.summonerName {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.summonerLevel {
+  color: #9ca3af;
+}
+
+.detailsButton {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.detailsButton:disabled {
+  background-color: #4b5563;
+  cursor: not-allowed;
+}
+
+.detailsLoadingText {
+  text-align: center;
+  padding: 2rem;
+}
+
+.statsContainer {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #374151;
+  margin-bottom: 1rem;
+}
+
+.tabButton {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid transparent;
+  color: #9ca3af;
+  font-weight: normal;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tabButtonActive {
+  border-bottom-color: #2563eb;
+  color: white;
+  font-weight: 600;
+}
+
+.placeholderBox {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.footer {
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 2rem;
+}
